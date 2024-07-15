@@ -48,7 +48,6 @@ const Classroom = () => {
     };
 
     const handleResetSearch = () => {
-
         setSearchName("");
         setSearchMajor("");
         setSearchInterest("");
@@ -79,7 +78,7 @@ const Classroom = () => {
                 Next
             </Pagination.Next>
         );
-
+        
         return pages;
     };
 
